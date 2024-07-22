@@ -134,6 +134,10 @@ body {
     padding: 75px 70px;
 }
 
+.myskills h1 {
+    text-align: left;
+}
+
 .myskills h5 {
     font-size: 18px;
 }
@@ -220,6 +224,7 @@ body {
 
 .anurag h1 {
     font-size: 40px;
+    text-align: left;
 }
 
 .anurag p {
@@ -341,16 +346,32 @@ body {
 
 .headings {
     padding: 140px 60px;
-
 }
 
 .headings h3 {
     font-size: 15px;
 }
 
+
 .headings h1 {
     font-size: 45px;
     padding: 10px 0px;
+    text-align: left;
+}
+
+.review-grid {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    padding: 70px 150px;
+
+}
+
+
+.star {
+    width: 100px;
+    margin-bottom: 10px;
 }
 
 .frame {
@@ -358,6 +379,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     cursor: pointer;
+
 
 }
 
@@ -370,6 +392,7 @@ body {
     border-radius: 5px;
     border: 1px solid;
     border-color: #006B6A;
+    text-align: left;
 
 }
 
